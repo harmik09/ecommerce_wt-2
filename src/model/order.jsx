@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const schema = mongoose.Schema({
     orederID: String,
     userid: String,
-    orederID: Date,
+    orederDate: Date,
     status: String,
     totalPrice: Number,
     shippingAddress: Object,
